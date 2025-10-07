@@ -2,47 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ivan Matys - CV</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
+      background: #f9f9f9;
       color: #333;
     }
-    header {
-      background-color: #2c3e50;
+    header, footer {
+      background: #2c3e50;
       color: white;
       padding: 20px;
       text-align: center;
     }
-    section {
-      padding: 20px;
-      max-width: 800px;
+    main {
+      max-width: 900px;
       margin: auto;
-      background-color: white;
-      margin-top: 20px;
-      border-radius: 8px;
+      padding: 20px;
+      background: white;
     }
     h2 {
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid #eee;
       padding-bottom: 5px;
+      margin-top: 30px;
+    margin-bottom: 20px;
+    }
+    .job {
+      margin-bottom: 15px;
+    }
+    details {
+      background: #f1f1f1;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
     }
     ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #2c3e50;
-      color: white;
-      margin-top: 20px;
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -50,44 +50,87 @@
   <header>
     <h1>Ivan Matys</h1>
     <p>Senior Advisor, Financial Analysis</p>
-    <p>Remote - Slovakia, Bratislavsky kraj</p>
+    <p>Bratislava, Slovakia | ivanmatys@gmail.com | +421 905 976 665</p>
   </header>
 
-  <section>
-    <h2>Professional Summary</h2>
-    <p>[Insert your professional summary here]</p>
-  </section>
+  <main>
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p>Experienced financial and business analyst with a strong background in healthcare, emergency services, and finance. Proven track record in project management, acquisition analysis, and strategic planning.</p>
+    </section>
 
-  <section>
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Senior Advisor, Financial Analysis</strong> - [Company Name], [Dates]</li>
-      <li><strong>Previous Role</strong> - [Company Name], [Dates]</li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <details open>
+          <summary>Transition Project Manager – Falck Emergency (2019–Present)</summary>
+          <ul>
+            <li>Led the transition and closure of Falck Záchranná operations in Slovakia.</li>
+            <li>Negotiated asset sales, employee handovers, and lease terminations.</li>
+            <li>Supported Danish CEO and Transition Director in strategic decisions.</li>
+          </ul>
+        </details>
+      </div>
+      <div class="job">
+        <details>
+          <summary>Business Development Manager – Falck Emergency (2017–2019)</summary>
+          <ul>
+            <li>Led acquisition screening and client identification.</li>
+            <li>Managed tenders and public procurement processes.</li>
+            <li>Organized large-scale EMS tender submissions.</li>
+          </ul>
+        </details>
+      </div>
+      <div class="job">
+        <details>
+          <summary>Financial Analyst – Falck Emergency (2017)</summary>
+          <ul>
+            <li>Performed financial analysis and investment evaluations.</li>
+            <li>Managed ledger-level data and cash flow analysis.</li>
+          </ul>
+        </details>
+      </div>
+      <!-- Add more roles similarly -->
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <ul>
-      <li><strong>[Degree]</strong> - [University], [Year]</li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>Master of Financial Management – Comenius University, Bratislava (2003–2009)</li>
+        <li>Certificate in Advanced English – British Council (2009)</li>
+        <li>Exchange Program – University of Warsaw (2007–2008)</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Financial Modeling</li>
-      <li>Data Analysis</li>
-      <li>Excel, Power BI, SQL</li>
-      <!-- Add more skills -->
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Financial Analysis, Project Management, Business Development</li>
+        <li>Advanced MS Excel, VBA, SQL, SAP, Hyperion</li>
+        <li>Languages: Slovak (native), English (C2), Polish (C1), Russian (B1), German (B1), Spanish (A1)</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: [your.email@example.com]</p>
-    <p>LinkedIn: [Your LinkedIn URL]</p>
-  </section>
+    <section class="section">
+      <h2>Certifications & Courses</h2>
+      <ul>
+        <li>Bid Excellence – Shipley Associates</li>
+        <li>Public Procurement – creation eu</li>
+        <li>First Aid – Falck Academy</li>
+        <li>Professional Presentation – IBM</li>
+        <li>Excel & VBA – KVT vzdelávanie</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Other Interests</h2>
+      <ul>
+        <li>PADI certified AOWD scuba diver</li>
+        <li>Hobby photographer</li>
+        <li>Voracious reader</li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Ivan Matys</p>
